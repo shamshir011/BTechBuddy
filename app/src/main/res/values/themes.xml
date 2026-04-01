@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BTechBuddy" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/blue_violet</item>
+        <item name="colorSecondary">@color/design_default_color_secondary</item>
+        <item name="colorPrimaryVariant">@color/design_default_color_primary_variant</item>
+
+<!--        Status bar color-->
+        <item name="android:statusBarColor">@color/blue_violet</item>
+
+    </style>
+    <style name="Theme.BTechBuddy" parent="Base.Theme.BTechBuddy" />
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/blue_violet</item>
+        <item name="colorSecondary">@color/design_default_color_secondary</item>
+        <item name="colorPrimaryVariant">@color/design_default_color_primary_variant</item>
+        <!--        Status bar color-->
+        <item name="android:statusBarColor">@color/blue_violet</item>
+    </style>
+
+    <style name="signUpTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/blue_violet</item>
+        <item name="colorSecondary">@color/design_default_color_secondary</item>
+        <item name="colorPrimaryVariant">@color/design_default_color_primary_variant</item>
+        <!--        Status bar color-->
+        <item name="android:statusBarColor">@color/blue_violet</item>
+    </style>
+
+    <style name="javaTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/oxford_blue</item>
+        <item name="colorSecondary">@color/design_default_color_secondary</item>
+        <item name="colorPrimaryVariant">@color/design_default_color_primary_variant</item>
+        <!--        Status bar color-->
+        <item name="android:statusBarColor">@color/oxford_blue</item>
+    </style>
+
+    <style name="pythonTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#DEC46E</item>
+        <item name="colorSecondary">@color/design_default_color_secondary</item>
+        <item name="colorPrimaryVariant">@color/design_default_color_primary_variant</item>
+        <!--        Status bar color-->
+        <item name="android:statusBarColor">#DEC46E</item>
+    </style>
+
+    <style name="webTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/grass_green</item>
+        <item name="colorSecondary">@color/design_default_color_secondary</item>
+        <item name="colorPrimaryVariant">@color/design_default_color_primary_variant</item>
+        <!--        Status bar color-->
+        <item name="android:statusBarColor">@color/grass_green</item>
+    </style>
+
+    <style name="highScoreTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#0F172A</item>
+        <item name="colorSecondary">@color/design_default_color_secondary</item>
+        <item name="colorPrimaryVariant">@color/design_default_color_primary_variant</item>
+    </style>
+
+</resources>

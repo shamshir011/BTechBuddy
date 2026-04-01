@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue_violet">#4B1CEF</color>
+    <color name="forgotPasswordBlue">#4B1CEF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="notYetAccount">#FFFFFF</color>
+    <color name="coral_pink">#FF6F61</color>
+    <color name="dark_blue">#1E415E</color>
+    <color name="end_color">#4B1CEF</color>
+    <color name="emerald_green">#4CAF50</color>
+    <color name="light_yellow">#FFE873</color>
+    <color name="m0edium_blue">#0000CD</color>
+    <color name="quiz_color">#BFC7EB</color>
+    <color name="start_color">#3E71E7</color>
+    <color name="sky">#28DEDB</color>
+    <color name="soft_blue">#3F51B5</color>
+    <color name="oxford_blue">#020D4D</color>
+    <color name="grass_green">#2E7D32</color>
+    <color name="oneSemester">#DFEBDF</color>
+    <color name="secondSemester">#DAE8F8</color>
+    <color name="thirdSemester">#DDFBFB</color>
+    <color name="fourthSemester">#F2F0FA</color>
+
+<!--    development-->
+
+    <color name="cs_bg">#DFE1EF</color>
+    <color name="js_bg">#F8F0D7</color>
+    <color name="vc_bg">#ADACAC</color>
+    <color name="project_practice">#E0FAE1</color>
+    <color name="node_color">#54F05A</color>
+    <color name="express_color">#2C2C2C</color>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "64241599053",
+    "firebase_url": "https://btech-buddy-db25b-default-rtdb.firebaseio.com",
+    "project_id": "btech-buddy-db25b",
+    "storage_bucket": "btech-buddy-db25b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64241599053:android:46f48444d88a696072d204",
+        "android_client_info": {
+          "package_name": "com.example.btechbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64241599053-ki9apbdt340habgqm2uqu20ohmcohq7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.btechbuddy",
+            "certificate_hash": "66ed50fb7e7968dd031be0162315b0ac7cc78562"
+          }
+        },
+        {
+          "client_id": "64241599053-i1e84f8pi5gvla1vh043149g1edh1b4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyZbQj0Urah7eaF8b-JJwskjhcrMyjOJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64241599053-i1e84f8pi5gvla1vh043149g1edh1b4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

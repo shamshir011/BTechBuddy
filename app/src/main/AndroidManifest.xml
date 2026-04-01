@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BTechBuddy">
+        <activity
+            android:name=".Quiz.JavaHighScoreActivity"
+            android:exported="false"
+            android:theme="@style/highScoreTheme"/>
+        <activity
+            android:name=".Quiz.PythonHighScoreActivity"
+            android:exported="false"
+            android:theme="@style/highScoreTheme"/>
+        <activity
+            android:name=".Semester4Activity.TechnicalCommunicationActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester4Activity.CyberSecurityActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester4Activity.OopsActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester4Activity.TheoryOfAutomataActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester4Activity.OperatingSystemActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester3Activity.HumanValueActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester3Activity.PythonProgrammingActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester3Activity.DiscreteStructureActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester3Activity.ComputerOrganizationArchitectureActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester3Activity.DataStructureActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester2Activity.FundamentalElectronicsActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester2Activity.SoftSkillActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester2Activity.FundamentalMechanicalActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester2Activity.ChemistryActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester1Activity.EngineeringPhysicsActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester1Activity.FundamentalElectricalEngineeringActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester1Activity.ProgrammingProblemSolvingActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".Semester1Activity.EnvironmentAndEcologyActivity"
+            android:exported="false"
+            android:parentActivityName=".ImportantQuesAnsActivity" />
+        <activity
+            android:name=".AndroidDevelopmentActivity"
+            android:exported="false"
+            android:parentActivityName=".RoadmapActivity"
+            android:theme="@style/webTheme" />
+        <activity
+            android:name=".FullStackDevelopmentActivity"
+            android:exported="false"
+            android:parentActivityName=".RoadmapActivity"
+            android:theme="@style/webTheme" />
+        <activity
+            android:name=".Quiz.JavaResultActivity"
+            android:exported="false"
+            android:theme="@style/javaTheme" />
+        <activity
+            android:name=".Quiz.PythonResultActivity"
+            android:exported="false"
+            android:theme="@style/javaTheme" />
+        <activity
+            android:name=".Quiz.JavaQuizActivity"
+            android:exported="false"
+            android:parentActivityName=".Quiz.QuizLanguageActivity"
+            android:theme="@style/javaTheme"/>
+        <activity
+            android:name=".Quiz.QuizLanguageActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".ImportantQuesAnsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RoadmapActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Quiz.PythonQuizActivity"
+            android:exported="false"
+            android:parentActivityName=".Quiz.QuizLanguageActivity"
+            android:theme="@style/pythonTheme" />
+        <activity
+            android:name=".PasswordForgotActivity"
+            android:exported="false"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/signUpTheme" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/signUpTheme" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <service android:name=".MyFirebaseService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts"/>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/notification_icon"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+    </application>
+
+</manifest>
