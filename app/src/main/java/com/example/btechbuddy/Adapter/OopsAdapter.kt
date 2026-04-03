@@ -3,9 +3,7 @@ package com.example.btechbuddy.Adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.btechbuddy.Adapter.MechanicalAdapter.ViewHolder
 import com.example.btechbuddy.Model.EnvironmentAndEcologyModel
-import com.example.btechbuddy.databinding.MechanicalDesignBinding
 import com.example.btechbuddy.databinding.OopsDesignBinding
 
 class OopsAdapter(

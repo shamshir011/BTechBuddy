@@ -82,7 +82,7 @@ class LoginActivity : AppCompatActivity(){
                 updateUi(user)
             }
             else{
-                Toast.makeText(this, "Login Failed", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Email or Password wrong", Toast.LENGTH_SHORT).show()
             }
         }
     }
@@ -113,10 +113,13 @@ class LoginActivity : AppCompatActivity(){
         startActivity(intent)
         finish()
     }
-    override fun onStart(){
+    override fun onStart() {
         super.onStart()
-        val currentUser: FirebaseUser? = auth.currentUser
-        if(currentUser != null){
+
+        val currentUser = auth.currentUser
+        val googleAccount = GoogleSignIn.getLastSignedInAccount(this)
+
+        if (currentUser != null && googleAccount != null) {
             startActivity(Intent(this, MainActivity::class.java))
             finish()
         }

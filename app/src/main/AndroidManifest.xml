@@ -19,76 +19,13 @@
             android:name=".Quiz.PythonHighScoreActivity"
             android:exported="false"
             android:theme="@style/highScoreTheme"/>
+
         <activity
-            android:name=".Semester4Activity.TechnicalCommunicationActivity"
+            android:name=".OopsActivity"
             android:exported="false"
             android:parentActivityName=".ImportantQuesAnsActivity" />
         <activity
-            android:name=".Semester4Activity.CyberSecurityActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester4Activity.OopsActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester4Activity.TheoryOfAutomataActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester4Activity.OperatingSystemActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester3Activity.HumanValueActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester3Activity.PythonProgrammingActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester3Activity.DiscreteStructureActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester3Activity.ComputerOrganizationArchitectureActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester3Activity.DataStructureActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester2Activity.FundamentalElectronicsActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester2Activity.SoftSkillActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester2Activity.FundamentalMechanicalActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester2Activity.ChemistryActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester1Activity.EngineeringPhysicsActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester1Activity.FundamentalElectricalEngineeringActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester1Activity.ProgrammingProblemSolvingActivity"
-            android:exported="false"
-            android:parentActivityName=".ImportantQuesAnsActivity" />
-        <activity
-            android:name=".Semester1Activity.EnvironmentAndEcologyActivity"
+            android:name=".PythonProgrammingActivity"
             android:exported="false"
             android:parentActivityName=".ImportantQuesAnsActivity" />
         <activity

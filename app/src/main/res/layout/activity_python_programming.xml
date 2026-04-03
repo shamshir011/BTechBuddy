@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginBottom="10dp"
-    tools:context=".Semester3Activity.PythonProgrammingActivity">
+    tools:context=".PythonProgrammingActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/pythonProgrammingRecyclerView"

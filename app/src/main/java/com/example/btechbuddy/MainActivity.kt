@@ -20,6 +20,8 @@ import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
+import com.google.android.gms.auth.api.signin.GoogleSignIn
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
@@ -67,19 +69,50 @@ class MainActivity : AppCompatActivity() {
 
     if(item.itemId == R.id.signOut){
 
-        val dialogMessage = AlertDialog.Builder(this@MainActivity)
-        dialogMessage.setTitle("Quiz Game")
+//        val dialogMessage = AlertDialog.Builder(this@MainActivity)
+//        dialogMessage.setTitle("Quiz Game")
+//        dialogMessage.setMessage("If you want sign out click Yes\notherwise click No.")
+//        dialogMessage.setCancelable(false)
+//        dialogMessage.setPositiveButton("Yes"){ dialogWindow, position->
+//
+//            auth.signOut()
+//            val intent = Intent(this, LoginActivity::class.java)
+//            startActivity(intent)
+//            finish()
+//
+//        }
+//        dialogMessage.setNegativeButton("No"){ dialogWindow, position->
+//            Toast.makeText(this, "I don't want to Sign Out", Toast.LENGTH_SHORT).show()
+//        }
+//        dialogMessage.create().show()
+
+
+
+
+        val dialogMessage = AlertDialog.Builder(this)
+        dialogMessage.setTitle("BTechBuddy")
         dialogMessage.setMessage("If you want sign out click Yes\notherwise click No.")
         dialogMessage.setCancelable(false)
-        dialogMessage.setPositiveButton("Yes"){ dialogWindow, position->
+
+        dialogMessage.setPositiveButton("Yes") { _, _ ->
 
             auth.signOut()
+
+            val googleSignInClient = GoogleSignIn.getClient(
+                this,
+                GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                    .requestEmail()
+                    .build()
+            )
+
+            googleSignInClient.signOut()
+
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
-            finish()
-
+            this.finish()
         }
-        dialogMessage.setNegativeButton("No"){ dialogWindow, position->
+
+        dialogMessage.setNegativeButton("No") { _, _ ->
             Toast.makeText(this, "I don't want to Sign Out", Toast.LENGTH_SHORT).show()
         }
         dialogMessage.create().show()
@@ -89,5 +122,4 @@ class MainActivity : AppCompatActivity() {
     }
         return super.onOptionsItemSelected(item)
     }
-
 }

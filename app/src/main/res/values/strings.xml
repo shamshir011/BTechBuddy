@@ -5,12 +5,12 @@
     <string name="email">Email</string>
     <string name="account">Don\'t you have an account yet? <font color="#28DEDB"><b><u><i>Sign Up</i></u></b></font></string>
     <string name="or">OR</string>
-    <string name="forgot_password"><font color="#28DEDB"><u>I forget my password</u></font></string>
+    <string name="forgot_password"><font color="#28DEDB"><u>Forget password</u></font></string>
     <string name="login">Login</string>
     <string name="name">Name</string>
-    <string name="email_or_phone_number">Email or Phone Number</string>
-    <string name="create_account">Create Account</string>
-    <string name="reset_password">Forget My Password</string>
+    <string name="email_or_phone_number">Email</string>
+    <string name="create_account">Submit</string>
+    <string name="reset_password">Forget Password</string>
     <string name="already_have_an_account">Already Have An Account?</string>
     <string name="continue_with_google">Continue With Google</string>
     <string name="logins">Login</string>
@@ -168,7 +168,7 @@ And tomorrow, the world would start again.</string>
     <string name="out_of_50">out of 50</string>
     <string name="_0">0</string>
     <string name="show_ads">Show Ads</string>
-    <string name="source">All questions sourced from: aktuonline.com(Unofficial)</string>
+    <string name="source">All questions sourced from: aktuonline.com  (Unofficial)</string>
 
 </resources>
 

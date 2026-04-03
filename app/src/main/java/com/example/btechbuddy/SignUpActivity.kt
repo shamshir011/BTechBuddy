@@ -37,6 +37,7 @@ class SignUpActivity : AppCompatActivity(){
 
         binding.alreadyHaveAccount.setOnClickListener{
             val intent = Intent(this, LoginActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
             finish()
         }
@@ -61,7 +62,8 @@ class SignUpActivity : AppCompatActivity(){
                 Toast.makeText(this, "Account created successfully", Toast.LENGTH_SHORT).show()
                 saveUserData()
 
-                val intent = Intent(this, LoginActivity::class.java)
+                val intent = Intent(this, MainActivity::class.java)
+                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                 startActivity(intent)
                 finish()
             }
